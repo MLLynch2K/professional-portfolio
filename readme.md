@@ -1,7 +1,7 @@
 # Professional Portfolio
 
 ## Purpose
-A professional portfolio website that showcases my fullstack skills.
+A professional portfolio website that showcases my fullstack developer skills.
 
 ## Built With
 * HTML
