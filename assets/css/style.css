@@ -1,54 +1,50 @@
-:root {
-    --primary-color: lightgrey;
-    --secondary-color: black;
-    --tertiary-color: darkgrey;
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    color:#455671;
+    background-color: #edeef7;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--tertiary-color);
 }
 
+/* Header Styles */
+
 header {
-    padding: 20px 35px;
-    background-color: var(--secondary-color);
+    padding: 0px;
+    background-color: #3a3a3a;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: -webkit-sticky;
-    position: sticky;
     top: 0;
-    z-index: 9999;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--tertiary-color);
+    color: #3a3a3a;
+    background-color: #9fc7cd;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0 , 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: #9fc7cd;
 }
 
 header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
+header nav ul {
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     list-style: none;
 }
 
@@ -56,24 +52,16 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-header nav ul li a:hover {
-    background: var(--tertiary-color);
-    color: var(--secondary-color);
+header nav ul li a:hover{
+    background: #9fc7cd;
+    color: #024e76;
     border-radius: 15px;
     text-shadow: none;
 }
 
-section {
-    padding: 60px;
-}
-
-p {
-    line-height: 1.5;
-    padding-top: 5px;
-    padding-bottom: 5px;
+header nav ul li a span {
+    border-bottom: 3px solid;
 }
 
 /* Hero Style Starts */
@@ -178,22 +166,20 @@ p {
     font-weight: normal;
     font-size: 1vw;
 }
-url("../images/hero.jpg");
-
 
 .project-one {
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: 
+    background-image: url("../images/work1.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .project-one:hover {
-    background-image: url("../assets/images/project5hover.jpg");
+    background-image: url("../images/work1-hover.jpg");
     transition: 0.5s;
 }
 
