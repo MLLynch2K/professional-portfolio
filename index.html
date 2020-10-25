@@ -2,33 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Michele Lee Lynch</title>
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <title>Professional Portfolio</title>
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     </head>
 
     <body>
-        <!-- Navigation Section -->
+        <!--  Navigation Section -->
         <header>
-            <h1>
-                <a>Michele Lee Lynch</a>
-            </h1>
+            <h1>Michele Lee Lynch</h1>
             <nav>
-                <!-- Unordered List Element -->
                 <ul>
-                    <!-- List Item Element -->
                     <li>
-                        <!-- Anchor Element -->
-                        <a href="About Me">About Me</a>
+                        <a href="#about-me"><span>About Me</span></a>
                     </li>
                     <li>
-                        <a href="Work">Work</a>
+                        <a href="#work"><span>Work</span></a>
                     </li>
                     <li>
-                        <a href="Contact Me">Contact Me</a>
+                        <a href="#contact-me"><span>Contact Me</span></a>
                     </li>
                     <li>
-                        <a href="Resume">Resume</a>
+                        <a target="_blank" href="./assets/images/Resume.jpg">Resume</a>
                     </li>
                 </ul>
             </nav>
@@ -36,78 +31,88 @@
 
         <!-- Hero Section -->
         <section class="hero">
-            <div class="hero-cta>">
-                <h2>Financial Analyst turned Full Stack Developer</h2>
-            </div>
+            <h2>Financial Analyst turned Full Stack Developer</h2>
         </section>
 
         <!-- About Me Section -->
         <section id="about-me" class="about">
-            <div class="flex-row">
-                <h2 class="section-title primary-border">About Me</h2>
-                    <p>
-                        My name is Michele Lee Lynch. I am currently attending the LPS Penn Coding Bootcamp program. I have worked for 20 years in the financial industry and have decided to switch careers to something that aligns with my passion: coding.
-                    <br>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis obcaecati iste veniam recusandae aliquam assumenda ab est officia reprehenderit laudantium voluptatem tempora vel quaerat, cum voluptatum hic distinctio excepturi exercitationem.
-                    </p>
+            <div>
+                <h3 class="section-title">About<br />Me</h3>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequatur aliquid aut asperiores tempore sapiente eos veritatis pariatur dolores expedita nemo, minima impedit obcaecati iusto perspiciatis facilis dolor itaque illo?
+                </p>
+                <br />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus, ad expedita ipsum nisi ea. Eveniet sapiente nam quod vel animi, nemo architecto earum dolore vero, fuga quisquam quasi officiis.
+                </p>
             </div>
         </section>
 
         <!-- Work Section -->
-        <section id="work">
+        <section id="work" class="work">
             <div>
                 <h3 class="section-title">Work</h3>
             </div>
+
             <div class="grid-container">
+
                 <div class="grid-item project-one">
                    <h4>Project 1
                        <br />
-                       <span>Placeholder1</span>
+                       <span>Run Buddy</span>
                    </h4>
-                   <a class="imglink" href="assets/images/work1.jpg" title="Project 1"></a>
+                   <a class="imglink" href="https://mllynch2k.github.io/run-buddy/" target="_blank" title="Run Buddy">Test</a>
                 </div>
+
                 <div class="grid-item project-two">
                     <h4>Project 2
                         <br />
-                        <span>Placeholder2</span>
+                        <span>Horiseon</span>
                     </h4>
-                    <a class="imglink" href="assets/images/work2.jpg" title="Project 2"></a>
-                </div>
-                <div class="grid-item project-three">
+                    <a class="imglink" href="https://mllynch2k.github.io/urban-octo-telegram/" target="_blank" title="Horiseon">Test</a>
+                 </div>
+
+                 <div class="grid-item project-three">
                     <h4>Project 3
                         <br />
-                        <span>Placeholder3</span>
+                        <span>Placeholder</span>
                     </h4>
-                    <a class="imglink" href="assets/images/work3.jpg" title="Project 3"></a>
-                </div>
-                <div class="grid-item project-four">
+                    <a class="imglink" href="./comingsoon.html" target="_blank" title="Coming Soon">Test</a>
+                 </div>
+
+                 <div class="grid-item project-four">
                     <h4>Project 4
                         <br />
-                        <span>Placeholder4</span>
+                        <span>Placeholder</span>
                     </h4>
-                    <a class="imglink" href="assets/images/work4.jpg" title="Project 4"></a>
-                </div>
-                <div class="grid-item project-five">
+                    <a class="imglink" href="./comingsoon.html" target="_blank" title="Coming Soon">Test</a>
+                 </div>
+
+                 <div class="grid-item project-five">
                     <h4>Project 5
                         <br />
-                        <span>Placeholder5</span>
+                        <span>Placeholder</span>
                     </h4>
-                    <a class="imglink" href="assets/images/work5.jpg" title="Project 5"></a>
-                </div>
+                    <a class="imglink" href="./comingsoon.html" target="_blank" title="Coming Soon">Test</a>
+                 </div>
+
             </div>
         </section>
-
-        <!-- Contact Me/Footer Section -->
-        <footer id="contact-me">
-            <h4 class="section-title footer">Contact Me</h4>
-            <nav>
-                <ul>
-                    <li><a href="856-630-3431"><span>856-630-3431</span></a></li>
-                    <li><a href="mailto:michele.lynch8@yahoo.com"><span>michele.lynch8@yahoo.com</span></a></li>
-                    <li><a href="https://www.github.com/MLLynch2k"><span>GitHub</span></a</li>
-                    <li><a href="https://www.linkedin.com/in/michele-lee-lynch-a03877145/"><span>LinkedIn</span></a</li>
-                </ul>
-            </nav>
-        </footer>
+        
+        <!-- Contact Me Section -->
+        <section class="container" id="contact-me">
+            <h2 class="container-title">
+                Contact </br>Me
+            </h2>
+            <div class="container-content contact">
+                <a href="tel:8566303431">856-630-3431</a>
+                <a href="mailto:michele.lynch8@yahoo.com">michele.lynch8@yahoo.com</a>
+                <a href="https://github.com/MLLynch2K">GitHub</a>
+                <a href="https://www.linkedin.com/in/michele-lee-lynch-a03877145/">LinkdIn</a>
+            </div>
+        </section>
     </body>
-</html>
+</html
