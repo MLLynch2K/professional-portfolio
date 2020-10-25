@@ -130,7 +130,7 @@ header nav ul li a:hover{
 .grid-item {
     border: 5px solid var(--primary-color);
     grid-column: span 4;
-    color: #3a3a3a;
+    color:var(--secondary-color);
     min-height: 150px;
     display: flex;
     align-items: flex-end;
@@ -229,7 +229,7 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #3a3a3a;
+    color: var(--secondary-color);
 }
 footer nav ul {
     display: flex;
