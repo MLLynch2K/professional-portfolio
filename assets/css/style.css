@@ -8,6 +8,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
 body {
     color: var(--tertiary-color);
     background-color: #edeef7;
@@ -24,8 +30,8 @@ header {
     top: 0;
 }
 header h1 {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+    color: white;
+    background-color: #3a3a3a;
     margin: 0;
     padding: 10px 10px 0 80px;
     font-weight: bold;
@@ -61,7 +67,7 @@ header nav ul li a:hover{
 /* Hero Styles */
 .hero {
     height: 350px;
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/ocean.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,8 +76,8 @@ header nav ul li a:hover{
     align-items: flex-end;
 }
 .hero h2 {
-    color: #3a3a3a;
-    background-color: var(--primary-color);
+    color: white;
+    background-color: transparent;
     font-size: 2.5vw;
     margin: 0 80px 20px 0;
     padding: 5px 10px 5px 10px;
@@ -179,12 +185,12 @@ header nav ul li a:hover{
     grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url("../images/coming-soon.png");
+    background-image: url("../images/feeding-philly.png");
     background-size: cover;
     background-position: center;
 }
 .project-three:hover {
-    background-image: url("../images/coming-soonhover.jpg");
+    background-image: url("../images/feeding-phillyhover.jpg");
     transition: 0.5s;
 }
 .project-four {
@@ -241,11 +247,17 @@ footer nav ul {
 }
 footer nav ul li a {
     padding: 50px 50px 0 75px;
-    font-size: 1.55vw;
+    font-size: 16px;
     align-items: center;
 }
 footer nav ul li a span {
     border-bottom: 3px solid;
+}
+
+h3.section-title.footer {
+    margin-top: 30px;
+    margin-left: 33px;
+
 }
 
 /* MEDIA QUERIES FOR 980 SMALLER DESKTOP SCREENS AND SMALLER */
@@ -257,7 +269,7 @@ footer nav ul li a span {
     }   
     header nav ul li a {
         font-size: 10px;
-        padding 5px 10px 5px 10px;
+        padding: 5px 10px 5px 10px;
     }
     header nav ul li a span {
         border-bottom: none;
