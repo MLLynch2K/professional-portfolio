@@ -198,12 +198,12 @@ header nav ul li a:hover{
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-image: url("../images/coming-soon.png");
+    background-image: url("../images/madlibs.png");
     background-size: cover;
     background-position: center;
 }
 .project-four:hover {
-    background-image: url("../images/coming-soonhover.jpg");
+    background-image: url("../images/madlibshover.png");
     transition: 0.5s;
 }
 .project-five {
